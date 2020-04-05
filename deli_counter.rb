@@ -23,8 +23,8 @@ def take_a_number(katz_deli, x)
 end
 
 
-# def now_serving(katz_deli)
-#   #if noone in line "There is nobody waiting to be served"
-#   #puts next person in line
-#   #remove person from front of line
-# end
+def now_serving(katz_deli)
+  #if noone in line "There is nobody waiting to be served"
+  #puts next person in line
+  #remove person from front of line
+end
