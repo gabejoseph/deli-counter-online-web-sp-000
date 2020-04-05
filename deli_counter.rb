@@ -12,9 +12,11 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli)
-  katz_deli.unshift(x)
-  puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+def take_a_number(katz_deli, "Ada")
+  if katz_deli.size == 0 
+    katz_deli.unshift("Ada")
+    puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+  end
 end
 
 
