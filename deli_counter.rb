@@ -12,8 +12,6 @@ def line(katz_deli)
   end
 end
 
-x = "Ada"
-
 def take_a_number(katz_deli, x)
   if katz_deli.size == 0 
     katz_deli.unshift(x)
