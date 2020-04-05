@@ -18,6 +18,8 @@ def take_a_number(katz_deli, x)
   if katz_deli.size == 0 
     katz_deli.unshift(x)
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+  else 
+    katz_deli.push("Grace")
   end
 end
 
