@@ -25,7 +25,8 @@ end
 
 def now_serving(katz_deli)
   #if noone in line "There is nobody waiting to be served"
-  
+  if katz_deli.size == 0 
+    puts "The line is empty"
   #puts next person in line
   #remove person from front of line
 end
