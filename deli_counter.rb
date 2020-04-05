@@ -17,7 +17,7 @@ def take_a_number(katz_deli, x)
     katz_deli.unshift(x)
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
   else 
-    katz_deli.push("Grace")
+    katz_deli.push(x)
     puts "Welcome, #{katz_deli[-1]}. You are number 4 in line."
   end
 end
